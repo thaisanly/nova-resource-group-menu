@@ -7,7 +7,7 @@
             <div class="px-3 mb-6" :class="width" v-for="section in sections" v-if="config.width">
                 <loading-card :loading="false" class="px-6 py-4">
                     <h3 class="flex mb-3 text-base text-80 font-bold">
-                        {{ section.name }}
+                        {{ __(section.name) }}
                     </h3>
 
                     <div class="overflow-hidden overflow-x-auto">
